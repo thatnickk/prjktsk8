@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>projectsk8</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/amsterdam.ttf">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="navbar" id="navbar">
+        <a href="index.html" class="nav-element">Home</a>
+        <a href="catalog.html" class="current-nav-element">Catalog</a>
+        <a href="about.html" class="nav-element">About</a>
+        <a href="#" class="nav-element" id="login-button">Login</a>
+            <!-- <div class="loginbox" id="loginbox">
+                <input placeholder="username">
+                <input placeholder="password">
+                <button><i class="fa fa-address-card"></i></button>
+            </div> -->
+        <a href="cart.html" class="nav-element cart">Cart</a>
+    </div>
+    <div class="logo"><a href="index.html" class="logo">prjktSK8</a></div>
+    <div class="main-container">
+        <div class="title"><h1>Catalog</h1></div>
+        <button class="nav-button" onclick="navShow()">☰</button>
+        <div class="sub-container">
+            <div class="catalog-menu" id="navi"><h3>Categories</h3><input type="text" placeholder="search" id="search"><button class="search-button" id="search-button"><i class="fa fa-search"></i></button>
+                <div class="catalog-category">All</div>
+                <div class="catalog-category">Prebuilts</div>
+                <div class="catalog-category">Axe</div>
+                <div class="catalog-category">Placi</div>
+                <div class="catalog-category">Rulmenti</div>
+                <div class="catalog-category">Roti</div>
+            </div>
+            <div class="item-container" id="item-container">
+        </div>
+    </div>
+    </div>
+    <script src="scripts/nav-menu-show.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

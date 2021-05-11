@@ -1,0 +1,52 @@
+{
+    "produse": [
+        {
+            "id": "1",
+            "name": "placa1",
+            "img": "assets/skateboard.jpg",
+            "tags": [
+                ""
+            ]
+        },
+        {
+            "id": "2",
+            "name": "placa2",
+            "img": "assets/skateboard.jpg",
+            "tags": [
+                "Axe"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "placa3",
+            "img": "assets/skateboard.jpg",
+            "tags": [
+                "Rulmenti"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "placa4",
+            "img": "assets/skateboard.jpg",
+            "tags": [
+                "Placi"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "placa5",
+            "img": "assets/skateboard.jpg",
+            "tags": [
+                "Rulmenti"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "placa6",
+            "img": "assets/skateboard.jpg",
+            "tags": [
+                "Axe"
+            ]
+        }
+    ]
+}
